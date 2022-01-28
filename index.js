@@ -2,8 +2,8 @@ var randomNumber1=Math.floor(Math.random()*6)+1;
 var randomNumber2=Math.floor(Math.random()*6)+1;
 // random will give number ranging from 0 to 0.99999...
 
-var randomDiceImage1="/images/inverted-dice-"+randomNumber1+".png";
-var randomDiceImage2="/images/inverted-dice-"+randomNumber2+".png";
+var randomDiceImage1="https://abhijeet-dhumal.github.io/MyGames/images/inverted-dice-"+randomNumber1+".png";
+var randomDiceImage2="https://abhijeet-dhumal.github.io/MyGames/images/inverted-dice-"+randomNumber2+".png";
 
 var img1=document.querySelectorAll("img")[0];
 img1.setAttribute("src",randomDiceImage1);
