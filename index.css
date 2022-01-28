@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:darkslategrey;
+}
+.container-fluid{
+    border:1px solid white;
+    padding:5vw;
+    margin:5vh 20vw 0 20vw;
+}
+.container{
+    justify-content: center;align-items:center;text-align:center;
+}
+h1{
+    color:aqua;font-family: monospace;font-size: 45px;margin-top: 3vh;
+}
+ul{
+    display:flex;margin-top: 10vh;justify-content: center;align-items: center;
+}
+.container p{
+    list-style: none;
+    color:white;
+    font-size: 22px;
+}
+.dice{
+    width:20vw;
+    height:40vh;
+
+}
+.dice p{
+    padding:20px;
+}
+img{
+    width:100px;
+    border-radius: 10px;
+    background-color: brown;
+}
+footer{
+    justify-content: center;align-items:center;text-align: center;
+}
+footer p{
+    color:white;font-family: monospace;font-size:18px;
+}
